@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Palindrome
+class Seven
 {
     public static void main(String args[])
     {
@@ -14,13 +14,6 @@ class Palindrome
             a = a * 10 + x;
             n = n / 10;
         }
-        if(a == m)
-        {
-            System.out.println("Given number "+m+" is Palindrome");
-        }
-        else
-        {
-            System.out.println("Given number "+m+" is Not Palindrome");
-        }
+      System.out.println(a); 
     }
 }

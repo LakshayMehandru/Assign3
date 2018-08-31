@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Reverse
+class Five
 {
     public static void main(String args[])
     {
@@ -14,6 +14,13 @@ class Reverse
             a = a * 10 + x;
             n = n / 10;
         }
-      System.out.println(a); 
+        if(a == m)
+        {
+            System.out.println("Given number "+m+" is Palindrome");
+        }
+        else
+        {
+            System.out.println("Given number "+m+" is Not Palindrome");
+        }
     }
 }
